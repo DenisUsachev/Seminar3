@@ -19,7 +19,7 @@ string Method(int quarter)
             return"x = 0 ... ∞ \ny = 0 ... -∞";
             break;
         default:
-            return "Нужно ввести число от 1 до 4 (четверть)"
+            return "Нужно ввести число от 1 до 4 (четверть)";
     }
     
     
