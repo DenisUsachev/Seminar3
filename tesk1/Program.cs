@@ -5,7 +5,7 @@
 
 /*
    1. reference types(ссылочные типы) - class, char, arrays, list
-   2. valur types(значимые типы) - int, long, doble, detetime, struct, enum, decimal
+   2. valur types(значимые типы) - int, long, doble, detetime, struct, enum, decimal - оперативной памяти
 */
 
 int GetNumber(string message)
@@ -18,7 +18,7 @@ int GetNumber(string message)
     while (!isCorrect)
     {
         Console.WriteLine(message);
-        if(int.TryParse(Console.ReadLine(), out result) && result != 0) 
+        if(int.TryParse(Console.ReadLine(), out result) && result != 0) //our- вернуть преобразованный результат
         // TryParse безопасное преобразование из типа string в переменную int
         {
             isCorrect = true;
